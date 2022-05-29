@@ -1,0 +1,180 @@
+
+.wrapper{
+    background: lightgray;
+    min-height: 100vh;
+    justify-content: space-around;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 20px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.sidebar {
+    background-color: #f6f6f6;
+    border-radius: 20px;
+}
+
+.center_elements{
+    margin: 140px 50px;
+}
+
+.image {
+    border-radius: 50px;
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+}
+
+.name{
+    text-align: center;
+}
+
+.position{
+    height: 34px;
+    width: 150px;
+    background-color: #c2c2c1;
+    border-radius: 17px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 34px;
+    color:#444;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social_icon{
+    height: 14px;
+    width: 14px;
+    margin: 0 10px;
+    display: block;
+}
+
+.contacts_list{
+    margin-top: 20px;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    height: 40px;  
+}
+
+.contact_icon{
+    height: 20px;
+    width: 20px;
+}
+
+.contact_text{
+    margin: 0px;
+    margin-left: 10px;
+    color: gray;
+}
+
+.download_button{
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    border-radius: 20px;
+}
+
+.text_download_button{
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.main{
+    border-radius: 20px;
+    padding: 20px 40px 40px;
+}
+
+.menu_button{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 10px;
+}
+
+.menu{
+    margin: 5px;
+    margin-top: 10px;
+    border: 0px;
+    color: gray;
+}
+
+.resume_header{
+    margin-top: 40px;
+    color: #555;
+}
+
+.long_line{
+    height: 5px;
+    width: 60px;
+    border-radius: 2.5px;
+    background-color: blue;
+    margin: 12px;
+    margin-left: 0px;
+}
+
+.short_line{
+    height: 100%;
+    width: 20px;
+    border-radius: 2.5px;
+    background-color: orange;
+}
+
+.resume{
+    color: gray;
+}
+
+.skill_header{
+    color: #555;
+    margin-top: 20px;
+}
+
+
+.skill{
+    height: 200px;
+    width: 350px;
+    border-radius: 20px;
+    margin-top: 25px;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 4px solid #f6f6f6;;
+}
+
+.skill_image{
+    height: 40px;
+    width: 40px; 
+    margin: 0 auto;
+    display: block;
+}
+
+.skill_title{
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    font-family:  Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #555;
+}
+
+.skill_text{
+    text-align: center;
+    font-family:  Helvetica, sans-serif;
+    margin-top: 10px;
+    color: gray;
+    font-size: 16px;
